@@ -27,11 +27,11 @@
 
 <body>
     <!-- Navbar starts -->
-    <section class="container flex flex-col sm:flex-row sm:justify-between px-16 bg-penguin">
+    <section class="container flex flex-col sm:flex-row sm:justify-between px-4 sm:px-16 bg-penguin">
         <div class="">
             <img src="images/logo.png" alt="" class="sm:w-72 w-1/2 sm:h-10 h-1/3">
         </div>
-        <div class="flex gap-3 sm:gap-14 sm:px-8 px-0 py-2 sm:py-0 sm:text-xl text-sm">
+        <div class="flex gap-8 sm:gap-14 sm:px-8 px-0 py-2 sm:py-0 sm:text-xl text-sm">
             <a href="#">Home</a>
             <a href="#product">Products</a>
             <a href="#abt-cntct">About</a>
@@ -41,15 +41,16 @@
     <!-- Navbar ends -->
 
     <!-- Header starts -->
-    <header class="bg-penguin px-16 py-16">
+    <header class="bg-penguin sm:px-16 px-4 sm:py-16 py-4">
         <section class="container flex flex-row justify-between sm:gap-8 gap-5">
             <div class="flex flex-col gap-4">
-                <h1 class="text-2xl sm:text-4xl font-bold uppercase">
+                <h1 class="text-2xl sm:text-4xl sm:font-bold font-semibold uppercase">
                     <span class="text-yellow-400">Be the Penguin</span>
                     <br>
                     <span>of winter</span>
                 </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium.</p>
+                <p class="font-light sm:font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium.</p>
                 <button
                     class=" bg-lime-600 rounded-xl text-white text-center font-normal text-xs sm:text-lg sm:font-semibold w-24 sm:w-32 sm:h-10 h-6 grid-cols-2">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -68,15 +69,15 @@
     <!-- Header ends -->
 
     <!-- Main section starts -->
-    <main class="mt-16 bg-penguin rounded-lg px-16 sm:py-2 py-0.5">
+    <main class="bg-penguin rounded-lg sm:px-16 px-4 sm:py-5 py-2">
         <!-- Women's jacket section starts -->
-        <section class="container my-12" id="product">
-            <h2 class="text-3xl font-semibold uppercase mb-5">Women's Jacket</h2>
+        <section class="container my-20" id="product">
+            <h2 class="text-xl sm:text-3xl font-semibold uppercase mb-5">Women's Jacket</h2>
             <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-16">
                 <!-- Jacket-1 starts-->
-                <div class="jacket-parent shadow-lg rounded-lg bg-slate-50">
+                <div class="jacket-parent shadow-lg rounded-xl bg-slate-50">
                     <div class="img-parent mt-5">
-                        <div class="img-mother mt-5 rounded-lg">
+                        <div class="img-mother mt-5 rounded-xl">
                             <img src="images/jacket-1.png" alt="">
                         </div>
                     </div>
@@ -156,7 +157,7 @@
 
         <!-- Men's Jacket section starts -->
         <section class="container mt-24 mb-16">
-            <h2 class="text-3xl font-semibold uppercase mb-5">Men's Jacket</h2>
+            <h2 class="text-xl sm:text-3xl font-semibold uppercase mb-5">Men's Jacket</h2>
             <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-16">
                 <!-- Jacket-1 starts-->
                 <div class="jacket-parent shadow-lg rounded-lg bg-slate-50">
